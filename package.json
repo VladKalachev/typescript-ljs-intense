@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/VladKalachev/typescript-ljs-intense#readme",
   "devDependencies": {
+    "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
     "typescript": "^3.9.3"
   }
