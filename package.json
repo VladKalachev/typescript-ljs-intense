@@ -1,0 +1,25 @@
+{
+  "name": "typescript-ljs-intense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladKalachev/typescript-ljs-intense.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Kalachev Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladKalachev/typescript-ljs-intense/issues"
+  },
+  "homepage": "https://github.com/VladKalachev/typescript-ljs-intense#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
