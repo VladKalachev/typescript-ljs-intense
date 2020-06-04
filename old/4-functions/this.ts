@@ -1,9 +1,9 @@
-// type TAccount = { name: string, surname: string };
-//
-// function getFullName(this: TAccount) {
-//     return `${this.name}${this.surname}`;
-// }
-//
+type TAccount = { name: string, surname: string };
+
+function getFullName(this: TAccount) {
+    return `${this.name}${this.surname}`;
+}
+
 // let account = {
 //     name: 'Andrew',
 //     surname: 'Andrew',
