@@ -1,6 +1,7 @@
 // type, interface, function , classes
 type Info = { salary: number }
 
+
 interface IAccount<UserInfo extends Info & { male: boolean }, UserId = string> {
     id: UserId;
     name: string,
