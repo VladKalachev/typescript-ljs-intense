@@ -42,7 +42,7 @@ let p1: Point = {
 
 
 // implements >2.1 ...
-class BasePoint implements PartialPoint, IPartialPoint, snd {
+class BasePoint implements PartialPoint, IPartialPoint {
     public x: number = 10;
     public y: number = 10;
 }
