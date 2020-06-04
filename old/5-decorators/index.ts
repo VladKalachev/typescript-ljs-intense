@@ -1,5 +1,4 @@
-import { Debounce, LogEventValue, SentToSentry } from './utils';
-import { SavePersistence } from './utils';
+import { Debounce, LogEventValue, SentToSentry, SavePersistence } from './utils';
 
 class Search {
     constructor(
