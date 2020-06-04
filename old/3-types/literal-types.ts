@@ -39,4 +39,6 @@ enum Actions {
     REMOVE = 'REMOVE'
 }
 
-let action: keyof  Actions = ()=>{}
+let action: keyof typeof Actions = () => {
+    return 'CREATE'
+}
