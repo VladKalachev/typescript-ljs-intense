@@ -38,7 +38,7 @@ for (const date of dates) {
 
 
 /* arrow*/
-let sum = (a: number, b: number): number => a + b;
+let sumA = (a: number, b: number): number => a + b;
 
 /*Class*/
 class Point {
