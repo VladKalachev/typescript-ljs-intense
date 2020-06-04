@@ -1,20 +1,11 @@
-function sleep(ms: number) {
-    return new Promise((resolve) => {
-        setTimeout(resolve, ms);
-    })
-}
+import {speakLikeSloth1} from './module1';
+import {speakLikeSloth2} from './module2';
+import {speakLikeSloth3} from './module3';
+import {speakLikeSloth4} from './module4';
+import {speakLikeSloth5} from './module5';
 
-async function* getItemsReallySlowly<T>(items: Iterable<T>): AsyncIterableIterator<T> {
-    for (const item of items) {
-        await sleep(1000);
-        yield item;
-    }
-}
-
-export async function speakLikeSloth(items: string[]) {
-    for await (const item of getItemsReallySlowly(items)) {
-        console.log(item);
-    }
-}
-
-speakLikeSloth(['hi', 'all', 'TS', 'is', 'Awesome']);
+speakLikeSloth1(['hi', 'all', 'TS', 'is', 'Awesome']);
+speakLikeSloth2(['hi', 'all', 'TS', 'is', 'Awesome']);
+speakLikeSloth3(['hi', 'all', 'TS', 'is', 'Awesome']);
+speakLikeSloth4(['hi', 'all', 'TS', 'is', 'Awesome']);
+speakLikeSloth5(['hi', 'all', 'TS', 'is', 'Awesome']);
