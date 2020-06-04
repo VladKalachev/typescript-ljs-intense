@@ -13,7 +13,6 @@
 //
 // let num: 'delay' | 'type' = 'sdadsa'
 
-
 interface IFact {
     factId: number;
     user: string;
@@ -32,7 +31,6 @@ dataList.map((item) => {
     }
     return item;
 })
-
 
 enum Actions {
     CREATE = 'CREATE',

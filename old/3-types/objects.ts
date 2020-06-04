@@ -27,6 +27,7 @@ let value: (typeof user)['firstName' | 'age'] = true;
 
 // let arr: ReadonlyArray<number> = [1, 2, 3, 4];
 // let arr: readonly number[] = [1, 2, 3, 4];
+
 // arr[100] = 12;
 // arr.push(12);
 //
@@ -36,12 +37,12 @@ let value: (typeof user)['firstName' | 'age'] = true;
 //
 // let str = 'const string' as const;
 // let a: typeof str = 'asdasd';
-//
-// let arr = [1, 2, 3, 4] as const;
-//
-// let user1 = {
-//     firstName: 'Igor',
-//     age: 34
-// } as const;
-//
-// user1.age = 33;
+
+let arr = [1, 2, 3, 4] as const;
+
+let user1 = {
+    firstName: 'Igor',
+    age: 34
+} as const;
+
+user1.age = 33;
